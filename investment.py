@@ -12,9 +12,9 @@ while True:
 
      # striftime() method formats date object into a string representation
     #  %c represents date and time in the local version
-    print("Date and time:", time.strftime("%C")) 
+    print("Date and time:", time.strftime("%c")) 
     
     print("New investment amount:", initial_investment)
     
 # Wait for 24 hours before repeating the loop
-    time.sleep(30) 
+    time.sleep(86400) 
